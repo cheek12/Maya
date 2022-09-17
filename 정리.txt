@@ -1,0 +1,14 @@
+pivot d키를 눌러서 설정, 해제 // 초기화 : modify->center pivot
+hold x : grid snap
+hold c : curve snap
+hold v : point snap
+
+d + v =>pivot을 포인트 스냅으로 조짐
+edit -> duplicate special -> 뭔가 여러 설정해서 한번에 복사
+복사 : ctrl d // shift lmb
+
+Polygon mesh data 정리: Delete history(alt shift d) + Modify -> Freeze Transformation => 이거 안해주면 마야 렉걸리니간 자주자주
+
+hide obj : ctrl h
+hide unslected ob : alt h
+unhide previous hidden obj: ctrl shift h
