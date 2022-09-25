@@ -26,3 +26,19 @@ extract : shift x
 
 modify -> align tool//align object
 	-> snap together tool/ snap to polygon face 선택하면 원하는 위치에 정렬 가능.
+
+face/edge 선택 -> shift rmb -> bevel  # bevel 할 때에는 잘 생각해서 한번에 선택해서 할 것.
+shift rmb -> merge vertex/edge 합치는거 
+distance treshold => 거리 내에 있는거 merge
+shfit rmb -> merge -> target weld tool => merge 할거 선택할 수 이슴
+shift rmb -> connect component => 요소 연결
+face -> space -> mesh display -> <normal> average 평균값으로 노말 설정
+
+face 선택 -> shift rmb-> extrude
+	keep face together -> face들 방향 평균인지 아닌지
+	extrude 한 순간 하나 더 생기는거.
+
+결합할 떄 face 지워야 잘 댐.
+
+shift mirror -> 미러링으루다가 복사
+ctrl shift symmetry -> 방향 설정 후 작업하면 대칭으로 계속 됨
