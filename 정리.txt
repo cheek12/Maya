@@ -42,3 +42,22 @@ face 선택 -> shift rmb-> extrude
 
 shift mirror -> 미러링으루다가 복사
 ctrl shift symmetry -> 방향 설정 후 작업하면 대칭으로 계속 됨
+
+uv 맵 -> seam제봉선 같은거 잘안보이는데에만들어야댐
+
+intialshadinggroup  의 램버트는 건들지 마.
+rmb -> assgin new material =>  새로운 메테리얼 생성. lambert2에 속성 나와
+uv coordinate 로 속성 조정
+
+ face 선택 후 rmb assgin new material 하면 face별로 생성 가능
+
+boolean
+union		difference		subtract
+그냥합쳐		차집합			공집합
+
+두개 선턱 후   shirt rmb boolean ->union/difference/intersection(substract)
+boolean은 멍청하게 사용하지 말자.  엣지랑 버텍스 수 좀 고려해야해/ 버텍스랑 엣지 겹쳐서 하지 않기.	
+
+arnold - > lights -> physical sky  정도 사용하기
+
+ipr로 하면 실시간으로 렌더된거 볼 수 이슴
