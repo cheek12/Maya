@@ -61,3 +61,16 @@ boolean은 멍청하게 사용하지 말자.  엣지랑 버텍스 수 좀 고려
 arnold - > lights -> physical sky  정도 사용하기
 
 ipr로 하면 실시간으로 렌더된거 볼 수 이슴
+
+
+uv map
+uv -> uv editor 들어가면 맵 볼 수 잇다
+uveditor -> create ->automatic : 준내 빠름. 자동으로 해버림. 간단한ㅁ거 할 때 좋음.
+		->cylinder : 실린더같이 생긴거ㄷ
+		->planner : 축기준으로 늘엿다 줄엿다 할 수 이슴
+		->sphere : 동그랗게
+uv editor에서 face->rmb cut7sew -> cut하면 독립적으로 서정 가능
+	edge던 뭔던 cut하면 연결 끊김	
+	다시 붙이려면 붙일거 선택하고 stitch
+unfold 하면 face를 필 수 있는데 이때 연결된 요소를 끊어주어야 잘 펴짐
+연속적인 텍스쳐는 automatic으로 펴서 할당하면 존나 부자연스러움 -> unfold로 해ㅓ 잘 펴줘야댐. 기본적으로 plane으로 조지기.
