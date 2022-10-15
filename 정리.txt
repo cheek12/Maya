@@ -95,3 +95,7 @@ Modeling -> FX 변경 후 nCloth  아래에 뭐 설정하는 이슴
 	nConstraint -> create constraint 이거는 고정하는 거
 
 	s누르면 빨간줄 시작.
+
+mesh display -> set to face 로 초기화 계속 해주기.
+
+uv map 에서 면 선택 후 planar로 추출같은거.
